@@ -1,5 +1,5 @@
 
-class Spingo < Formula
+class Coppernob < Formula
   include Language::Python::Virtualenv
   desc ""
   homepage ""
