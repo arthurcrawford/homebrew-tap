@@ -4,7 +4,7 @@ class Coppernob < Formula
   desc ""
   homepage ""
   url "https://github.com/arthurcrawford/coppernob/archive/refs/tags/1.2.tar.gz"
-  version "1.1"
+  version "1.2"
   sha256 "7cde2d4e55e72e9c6bfb240ac8512b152eb25fa401ddbaa7458bd2c9539f1594"
 
   depends_on "python@3.11"
