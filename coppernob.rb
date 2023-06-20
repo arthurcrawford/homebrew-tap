@@ -3,9 +3,9 @@ class Coppernob < Formula
   include Language::Python::Virtualenv
   desc ""
   homepage ""
-  url "https://github.com/arthurcrawford/coppernob/archive/refs/tags/1.1.tar.gz"
+  url "https://github.com/arthurcrawford/coppernob/archive/refs/tags/1.2.tar.gz"
   version "1.1"
-  sha256 "1512651c023b162551517a2689270e0672324a6039a4fe293e27b610ef687e7c"
+  sha256 "7cde2d4e55e72e9c6bfb240ac8512b152eb25fa401ddbaa7458bd2c9539f1594"
 
   depends_on "python@3.11"
 
