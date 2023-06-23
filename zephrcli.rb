@@ -3,9 +3,9 @@ class Zephrcli < Formula
   include Language::Python::Virtualenv
   desc ""
   homepage ""
-  url "https://github.com/arthurcrawford/zephrcli/archive/refs/tags/0.1.31.tar.gz"
-  version "0.1.31"
-  sha256 "fd62595e162e6cc2615b5119b69f0892740ed44f376eb322de86817ed92b9274"
+  url "https://github.com/arthurcrawford/zephrcli/archive/refs/tags/0.1.32.tar.gz"
+  version "0.1.32"
+  sha256 "8d351e916ce2f313a7e7ffc74bc7129116661f3c03c727cd39f552e6430e04f2"
 
   depends_on "python@3.11"
 
