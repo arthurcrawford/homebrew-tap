@@ -9,6 +9,12 @@ class Zephrcli < Formula
 
   depends_on "python@3.11"
 
+  bottle do
+    rebuild 1
+    root_url "https://github.com/arthurcrawford/zephrcli/releases/download"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "5633881cf223c16f4b7f8d3a349f65cd0d05d9aab1b4441180ca6066c5a6c48b"
+  end
+
 # Click
   resource "click" do
     url "https://files.pythonhosted.org/packages/59/87/84326af34517fca8c58418d148f2403df25303e02736832403587318e9e8/click-8.1.3.tar.gz"
