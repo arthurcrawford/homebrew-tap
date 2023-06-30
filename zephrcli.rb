@@ -11,9 +11,7 @@ class Zephrcli < Formula
 
   bottle do
     root_url "https://github.com/arthurcrawford/zephrcli/releases/download/0.1.38"
-    rebuild 1
     sha256 cellar: :any_skip_relocation, arm64_big_sur: "5633881cf223c16f4b7f8d3a349f65cd0d05d9aab1b4441180ca6066c5a6c48b"
-    rebuild 2
     sha256 cellar: :any_skip_relocation, monterey: "4c6b09f1875f773a771f20989092637ced4572ddc129b1516046934eb8f168e4"
   end
 
