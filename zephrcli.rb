@@ -9,10 +9,10 @@ class Zephrcli < Formula
 
   depends_on "python@3.11"
 
-#  bottle do
-#    root_url "https://github.com/arthurcrawford/zephrcli/releases/download/0.1.41"
-#    sha256 cellar: :any_skip_relocation, arm64_big_sur: "f694dbd875745c0c47ae6295b0c65844e92000cc1e796c2273c959cc3694e2d7"
-#  end
+  bottle do
+    root_url "https://github.com/arthurcrawford/zephrcli/releases/download/0.1.43"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "600614bd593f003fdc7bb2a38aa7229fc18669c46ce331677d9d5e57c3267284"
+  end
 
 # Click
   resource "click" do
