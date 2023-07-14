@@ -3,16 +3,16 @@ class Zephrcli < Formula
   include Language::Python::Virtualenv
   desc ""
   homepage ""
-  url "https://github.com/arthurcrawford/zephrcli/archive/refs/tags/0.1.41.tar.gz"
-  version "0.1.41"
-  sha256 "b37f59a05f6a7b72f4cf01bfbfab1c5119473a411a1a05f1ef5cc74aa2f453d1"
+  url "https://github.com/arthurcrawford/zephrcli/archive/refs/tags/0.1.43.tar.gz"
+  version "0.1.43"
+  sha256 "15170f2270282f2aaa3f122fc44b0157d14ce0fdcb50c12acbee8c65e044dc0a"
 
   depends_on "python@3.11"
 
-  bottle do
-    root_url "https://github.com/arthurcrawford/zephrcli/releases/download/0.1.41"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "f694dbd875745c0c47ae6295b0c65844e92000cc1e796c2273c959cc3694e2d7"
-  end
+#  bottle do
+#    root_url "https://github.com/arthurcrawford/zephrcli/releases/download/0.1.41"
+#    sha256 cellar: :any_skip_relocation, arm64_big_sur: "f694dbd875745c0c47ae6295b0c65844e92000cc1e796c2273c959cc3694e2d7"
+#  end
 
 # Click
   resource "click" do
